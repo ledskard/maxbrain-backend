@@ -1,0 +1,18 @@
+export const error = {
+  id_not_found: "ID não foi encontrado",
+  email_already_registered: "Email já registrado",
+  invalid_credentials: "Credenciais inválidas",
+  bad_request: "400",
+  invalid_date: "A data inserida é inváida",
+  invalid_email_length: "Tamanho de email não suportado",
+  user_not_registered: "Usuário não registrado",
+  email_cannot_be_null: "O campo email é obrigatório",
+  cannot_create_user: "Não foi possível criar o usuário",
+  internal_server_error: "500",
+  cannot_create_message: "Não foi possível salvar a mensagem",
+  cannot_create_goal: "Não foi possível salvar a meta",
+  password_is_required: "O campo senha é obrigatório",
+  email_is_required: "O campo email é obrigatório",
+  password_invalid: "A senha inserida é inválida",
+  permission_denied: "Permissão negada",
+};

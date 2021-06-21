@@ -1,0 +1,25 @@
+{
+   "compilerOptions": {
+      "types": ["reflect-metadata", "jest"],
+      "target": "ES2015",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "outDir": "dist",
+      "rootDir": "./src",
+      "baseUrl": "./src",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "sourceMap": true,
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "strictPropertyInitialization": false,
+      "skipLibCheck": true,
+      "paths": {
+         "@modules/*": ["modules/*"],
+         "@config/*": ["config/*"],
+         "@shared/*": ["shared/*"]
+      }
+   },
+   "include": ["src/**/*", "__test__/**/*"],
+   "exclude": ["node_modules"]
+}
